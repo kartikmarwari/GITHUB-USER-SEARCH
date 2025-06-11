@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(25, 17, 66);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+     
+}
+.mainhead{
+    color: white;
+    margin-top: 100px;
+}
+p{
+    color: grey;
+    font-size: 1.5rem;
+}
+button{
+    background-color: rgba(39, 148, 231, 0.657);
+    padding: 4px 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius:30px;
+}
+.nameinp{
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid hsla(0, 0%, 20%, 0.3);
+    border-radius: 10px
+}
+.card{
+    display: flex;
+    gap: 10px;
+    
+}
+.lf{
+    width: 200px;
+     
+    height: 300px;
+}
+.rh{
+    width: 350px;
+}
+.pf{
+    height: 200px;
+    width: 200px;
+border-radius: 30%;
+}
+h1{
+    color: white;
+}
+a{
+    color: azure;
+    font-size: 2rem;
+}
